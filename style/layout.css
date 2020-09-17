@@ -2,19 +2,16 @@ html, body {
   height: 100%;
 }
 body {
-  min-height: 100%;
-  display: grid;
-  grid-template-rows: 1fr auto;
+  display: flex;
+  flex-direction: column;
 }
 
-/* .content {
+.content {
   flex: 1 0 auto;
-  height: 100%;
-} */
+}
 
 .footer {
-  grid-row-start: 2;
-  grid-row-end: 3;
+  flex-shrink: 0;
 }
 
 .nav-bar {
