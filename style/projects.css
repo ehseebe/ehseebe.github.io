@@ -9,7 +9,7 @@
 
 .container {
   position: relative;
-  width: 50%;
+  min-width: 50%;
   margin: 2em;
 }
 
