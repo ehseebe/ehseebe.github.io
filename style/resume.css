@@ -3,3 +3,9 @@
   max-height: 90vh;
   max-width: 50%;
 }
+
+.resume img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
