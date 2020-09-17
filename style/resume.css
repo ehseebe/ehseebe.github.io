@@ -1,6 +1,8 @@
 .resume {
-  background-color: white;
-  max-height: 90vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 1.5em;
+  max-height: auto;
   max-width: 50%;
 }
 
