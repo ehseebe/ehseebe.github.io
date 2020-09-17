@@ -1,6 +1,14 @@
 .nav-bar {
   width: 100%;
-  max-height: 15vh;
+  max-height: 10vh;
   display: flex;
   justify-content: space-between;
+}
+
+.logo {
+  max-height: inherit;
+}
+
+.nav-buttons {
+  max-height: inherit;
 }
