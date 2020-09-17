@@ -1,8 +1,8 @@
 .main-container {
   height: 100vh;
-  width: 100vh;
+  width: 100%;
 }
 .resume {
   max-height: 90vh;
-  max-width: fit-content;
+  max-width: 100%;
 }
