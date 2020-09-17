@@ -50,5 +50,6 @@ body {
   .nav-bar {
     flex-direction: column;
     align-items: center;
+    max-height: 100%;
   }
 }
