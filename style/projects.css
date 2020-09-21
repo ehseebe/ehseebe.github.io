@@ -34,7 +34,7 @@
   text-align: center;
 }
 
-.container:hover {
+.container:hover .image{
   opacity: 0.3;
 }
 
