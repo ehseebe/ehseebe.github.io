@@ -1,0 +1,30 @@
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  padding-top: 1.5em;
+}
+
+.container {
+  position: relative;
+  min-width: 50%;
+  margin: 2em;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+@media screen and (max-width: 600px) {
+  .main-container {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+}
