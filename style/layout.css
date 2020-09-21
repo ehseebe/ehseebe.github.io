@@ -14,7 +14,13 @@ body {
 
 .footer {
   flex-shrink: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-text {
   justify-content: center;
+  align-items: center;
+  font-size: x-small;
   font-family: 'Poppins', sans-serif;
 }
 
