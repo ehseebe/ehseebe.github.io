@@ -114,9 +114,9 @@ a:active {
 
 @media screen and (max-width: 600px) {
   .app-description {
-    visibility: hidden;
+    display: none;
   }
   .app-stack {
-    visibility: hidden;
+    display: none;
   }
 }
