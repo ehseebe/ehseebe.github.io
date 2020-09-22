@@ -84,6 +84,7 @@ a:active {
 
 .app-description {
   font-size: x-small;
+  padding: 1em;
 }
 
 .app-stack {
