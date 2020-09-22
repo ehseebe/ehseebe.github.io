@@ -55,6 +55,7 @@
   font-size: 16px;
   padding: 16px 32px;
   font-family: 'Poppins', sans-serif;
+  font-weight: 700;
 }
 
 /* unvisited link */
@@ -71,7 +72,7 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: whitesmoke;
+  color: grey;
   text-decoration: none;
 }
 
@@ -87,7 +88,26 @@ a:active {
 
 .app-stack {
   font-size: x-small;
-  background-color: rgba(170, 183, 184, 0.7);
+  background-color: white;
+  color: grey;
   border-radius: 25px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 1em;
+}
+
+@media screen and (max-width: 600px) {
+  .app-description {
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-box-orient: vertical;
+  }
+  .app-stack {
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-box-orient: vertical;
+  }
 }
