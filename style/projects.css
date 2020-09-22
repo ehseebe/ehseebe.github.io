@@ -57,12 +57,32 @@
   font-family: 'Poppins', sans-serif;
 }
 
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: whitesmoke;
+}
+
+/* selected link */
+a:active {
+  color: white;
+}
+
 .app-description {
-  font-size: xx-small;
+  font-size: x-small;
 }
 
 .app-stack {
-  font-size: xx-small;
+  font-size: x-small;
   background-color: rgba(170, 183, 184, 0.7);
   border-radius: 25px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
