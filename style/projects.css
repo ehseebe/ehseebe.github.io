@@ -95,6 +95,23 @@ a:active {
   padding: 1em;
 }
 
+@media screen and (max-width: 850px) {
+  .app-description {
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 3; /* number of lines to show */
+   -webkit-box-orient: vertical;
+  }
+  .app-stack {
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-box-orient: vertical;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .app-description {
     overflow: hidden;
