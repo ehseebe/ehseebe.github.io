@@ -44,11 +44,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 2em;
 }
 
 .footer-text {
   font-size: x-small;
   font-family: "Poppins", sans-serif;
+  color: #BFBFBF;
   padding: 3em;
 }
 
