@@ -101,6 +101,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  padding-right: 1.5em;
 }
 
 .nav-item {
