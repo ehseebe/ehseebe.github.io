@@ -38,7 +38,6 @@
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
-  box-shadow: 4px 8px rgba(0, 0, 0, 0.2), 6px 20px rgba(0, 0, 0, 0.19);
 }
 
 .container:hover .image{
