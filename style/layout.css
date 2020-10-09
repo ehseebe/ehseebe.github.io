@@ -81,8 +81,8 @@ body {
     transform: translateX(0);
   }
   100% {
-    -webkit-transform: translateX(1em);
-    transform: translateX(1em);
+    -webkit-transform: translateX(2em);
+    transform: translateX(2em);
   }
 }
 @keyframes slide-right {
@@ -91,8 +91,8 @@ body {
     transform: translateX(0);
   }
   100% {
-    -webkit-transform: translateX(100px);
-    transform: translateX(100px);
+    -webkit-transform: translateX(2em);
+    transform: translateX(2em);
   }
 }
 
@@ -108,7 +108,7 @@ body {
   padding-right: 0.5em;
 }
 
-.nav-item :hover {
+.a :hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
