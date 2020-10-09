@@ -3,7 +3,9 @@ body {
   height: 100%;
 }
 
-.body {
+body {
+  display: flex;
+  flex-direction: column;
   -webkit-animation: body 8s both;
   animation: body 8s both;
 }
@@ -31,11 +33,6 @@ body {
   100% {
     background-position: 50% 0;
   }
-}
-
-body {
-  display: flex;
-  flex-direction: column;
 }
 
 .content {
