@@ -7,7 +7,7 @@ body {
   display: flex;
   flex-direction: column;
   -webkit-animation: body 2s linear infinite alternate both;
-  animation: body 2s linear infinite alternate both;
+  animation: body 2s linear alternate both;
 }
 
 /* ----------------------------------------------
@@ -19,18 +19,18 @@ body {
 
 @-webkit-keyframes body {
   0% {
-    background: #ffffff;
+    background:  #E8C9D9;
   }
   100% {
-    background: #E8C9D9;
+    background: #ffffff;
   }
 }
 @keyframes body {
   0% {
-    background:  #ffffff;
+    background: #E8C9D9;
   }
   100% {
-    background: #E8C9D9;
+    background: #ffffff;
   }
 }
 
