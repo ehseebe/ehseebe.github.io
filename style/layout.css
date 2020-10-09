@@ -81,8 +81,8 @@ body {
     transform: translateX(0);
   }
   100% {
-    -webkit-transform: translateX(100px);
-    transform: translateX(100px);
+    -webkit-transform: translateX(1em);
+    transform: translateX(1em);
   }
 }
 @keyframes slide-right {
@@ -103,13 +103,13 @@ body {
   align-items: center;
 }
 
-.nav-buttons :hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
 .nav-item {
   padding-left: 0.5em;
   padding-right: 0.5em;
+}
+
+.nav-item :hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 @media screen and (max-width: 600px) {
