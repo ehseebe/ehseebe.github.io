@@ -40,6 +40,11 @@ body {
   padding-top: 2em;
 }
 
+.social-icons{
+  display: flex;
+  justify-content: space-between;
+}
+
 .footer-text {
   font-size: x-small;
   font-family: "Poppins", sans-serif;
