@@ -41,8 +41,8 @@
   100% {
     -webkit-transform: translateZ(50px);
             transform: translateZ(50px);
-    -webkit-box-shadow: 0 0 10px 0px #F5B63F;
-            box-shadow: 0 0 10px 0px #F5B63F;
+    -webkit-box-shadow: 0 0 10px 0px #D8B8FF;
+            box-shadow: 0 0 10px 0px #D8B8FF;
   }
 }
 @keyframes sidewalk-plants {
@@ -55,8 +55,8 @@
   100% {
     -webkit-transform: translateZ(50px);
             transform: translateZ(50px);
-    -webkit-box-shadow: 0 0 10px 0px #F5B63F;
-            box-shadow: 0 0 10px 0px #F5B63F;
+    -webkit-box-shadow: 0 0 10px 0px #D8B8FF;
+            box-shadow: 0 0 10px 0px #D8B8FF;
   }
 }
 
