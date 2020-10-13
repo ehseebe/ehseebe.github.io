@@ -47,8 +47,8 @@ body {
 }
 
 .icon {
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
 .footer-text {
@@ -56,6 +56,7 @@ body {
   font-family: "Poppins", sans-serif;
   color: #BFBFBF;
   padding: 3em;
+  padding-top: 1em;
 }
 
 .nav-bar {
