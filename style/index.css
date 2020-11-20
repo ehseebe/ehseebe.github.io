@@ -3,6 +3,7 @@ main {
   justify-content: center;
   flex: 1 0 auto;
   height: auto;
+  width: 100%;
 }
 
 .gallery {
@@ -10,6 +11,7 @@ main {
   align-items: center;
   padding: 2em;
   padding-top: 4em;
+  width: 100%;
 }
 
 .gallery img {
