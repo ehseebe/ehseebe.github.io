@@ -1,31 +1,31 @@
-.content {
+main {
   display: flex;
   justify-content: center;
   flex: 1 0 auto;
   height: auto;
 }
 
-.row {
+.gallery {
   display: flex;
   align-items: center;
   padding: 2em;
   padding-top: 4em;
 }
 
-.column {
+.gallery img {
   flex: 33.33%;
   padding: 5px;
 }
 
 @media screen and (max-width: 800px) {
-  .row {
+  main {
     flex: 50%;
   }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
-  .row {
+  main {
     flex-direction: column;
     flex: 100%;
     max-width: 100%;
