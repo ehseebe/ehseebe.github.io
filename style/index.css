@@ -9,7 +9,7 @@ main {
   grid-template-columns: repeat(3, 33.33% [col-start]);
   grid-template-rows: auto;
   grid-template-areas: "img img img";
-  column-gap: normal;
+  column-gap: 0.25em;
 }
 
 .gallery img {
