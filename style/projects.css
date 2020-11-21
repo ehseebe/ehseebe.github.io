@@ -19,36 +19,11 @@ main {
   border-radius: 25px;
 }
 
-.image {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-  border: solid #d8b8ff;
-}
-
-.middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+aside {
   text-align: center;
 }
 
-.container:hover .image{
-  opacity: 0.3;
-}
-
-.container:hover .middle {
-  opacity: 1;
-}
-
-.text {
+.project-details {
   background-color: white;
   color: black;
   border-radius: 25px;
@@ -83,12 +58,12 @@ a:active {
   text-decoration: none;
 }
 
-.app-description {
+.project-details__description {
   font-size: x-small;
   padding: 1em;
 }
 
-.app-stack {
+.project-details__stack {
   font-size: x-small;
   background-color: #F5B63F;
   color: white;
@@ -98,37 +73,9 @@ a:active {
 }
 
 @media screen and (max-width: 800px) {
-  .app-description {
-    overflow: hidden;
-   text-overflow: ellipsis;
-   display: -webkit-box;
-   -webkit-line-clamp: 3; /* number of lines to show */
-   -webkit-box-orient: vertical;
-  }
-  .app-stack {
-    display: none;
-  }
-  .main-container{
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-  .container {
-    padding: 1.5em;
-  }
+
 }
 
 @media screen and (max-width: 600px) {
-  .app-description {
-    display: none;
-  }
-  .app-stack {
-    display: none;
-  }
-  .main-container{
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-  .container {
-    padding: 1em;
-  }
+
 }
