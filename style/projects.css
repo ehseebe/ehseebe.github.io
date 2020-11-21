@@ -4,8 +4,6 @@ main {
   align-items: center;
   height: auto;
   padding-top: 1.5em;
-  padding-right: 15%;
-  padding-left: 15%;
 }
 
 .project {
@@ -20,6 +18,7 @@ main {
 
 aside {
   text-align: center;
+  margin: 2em;
 }
 
 .project-details {
@@ -58,13 +57,14 @@ a:active {
 }
 
 .project-details__description {
-  font-size: x-small;
+  font-size: small;
   padding: 1em;
 }
 
 .project-details__stack {
-  font-size: x-small;
-  background-color: #F5B63F;
+  font-size: small;
+  background-color: #56677D;
+  font-weight: bolder;
   color: white;
   border-radius: 25px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
