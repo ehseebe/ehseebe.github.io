@@ -1,26 +1,16 @@
 main {
-  display: flex;
-  justify-content: center;
-  flex: 1 0 auto;
+  height: auto;
+  padding: 2em;
 }
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(3, 33.33% [col-start]);
-  grid-template-rows: auto;
-  grid-template-areas: "img img img";
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   column-gap: 0.25em;
+  row-gap: 0.25em;
 }
 
 .gallery img {
   width: 100%;
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
-  main {
-    flex-direction: column;
-    flex: 100%;
-    max-width: 100%;
-  }
-}
