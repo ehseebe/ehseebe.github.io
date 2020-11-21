@@ -65,28 +65,20 @@ main {
 header {
   width: 100%;
   max-height: 10vh;
-  padding-top: 2em;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .logo {
-  padding-left: 1em;
-  padding-right: 1em;
 }
 
 .nav-buttons {
-  max-height: inherit;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
-  padding-right: 1.5em;
 }
 
 .nav-item {
-  padding-left: 0.5em;
-  padding-right: 0.5em;
 }
 
 .nav-item :hover {
