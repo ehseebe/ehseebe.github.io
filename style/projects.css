@@ -26,13 +26,13 @@ main {
   color: black;
   border-radius: 25px;
   padding: 1em;
-  margin: 0.5em;
+  margin-top: 0.5em;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
 }
 
 h1 {
-  padding-left: 1em;
+  font-size: x-large;
 }
 
 /* unvisited link */
@@ -63,18 +63,17 @@ a:active {
 }
 
 .project-details__description {
-  font-size: small;
-  padding: 1em;
+  font-size: medium;
+  padding: 0 1em;
 }
 
 .project-details__stack {
-  font-size: small;
+  font-size: medium;
   background-color: #56677D;
-  font-weight: bolder;
   color: white;
   border-radius: 25px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  padding: 1em;
+  padding: 0.5em 1em;
 }
 
 @media screen and (max-width: 800px) {
