@@ -1,7 +1,7 @@
 html,
 body {
   height: 100%;
-  width: 100vw;
+  box-sizing: border-box;
 }
 
 body {
@@ -28,7 +28,7 @@ body {
   }
 }
 
-.content {
+main {
   flex: 1 0 auto;
   height: auto;
 }
