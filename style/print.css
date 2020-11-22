@@ -6,8 +6,8 @@ main {
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  column-gap: 0.25em;
-  row-gap: 0.25em;
+  grid-gap: 0.25em;
+  align-items: center;
 }
 
 .gallery img,

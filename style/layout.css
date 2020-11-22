@@ -47,12 +47,12 @@ header {
   margin: 0 1em;
 }
 
-.nav-item :hover {
+.nav-button :hover {
   -webkit-animation: nav-item 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: nav-item 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
-@-webkit-keyframes nav-item {
+@-webkit-keyframes nav-button {
   0% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
