@@ -1,4 +1,4 @@
-.main-container {
+.gallery {
   display: flex;
   justify-content: center;
   height: auto;
@@ -6,7 +6,7 @@
   padding-top: 1.5em;
 }
 
-.row {
+.gallery-row {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -14,13 +14,13 @@
 }
 
 /* Create four equal columns that sits next to each other */
-.column {
+.gallery-column {
   flex: 20%;
   max-width: 20%;
   padding: 0 4px;
 }
 
-.column img {
+.gallery-column img {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
