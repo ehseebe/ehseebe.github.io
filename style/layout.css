@@ -48,8 +48,8 @@ header {
 }
 
 .nav-button :hover {
-  -webkit-animation: nav-item 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation: nav-item 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -webkit-animation: nav-button 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: nav-button 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 @-webkit-keyframes nav-button {
