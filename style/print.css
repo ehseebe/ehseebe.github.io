@@ -10,7 +10,8 @@ main {
   row-gap: 0.25em;
 }
 
-.gallery img {
+.gallery img,
+.gallery a {
   width: 100%;
   height: auto;
 }
