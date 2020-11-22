@@ -88,9 +88,8 @@ footer {
 }
 
 .icon {
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-  width: 2em;
+  margin: 0 0.25em;
+  width: 3em;
 }
 
 .icon img {
