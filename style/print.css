@@ -1,9 +1,9 @@
 .gallery {
-  display: flex;
-  justify-content: center;
-  height: auto;
-  width: 100%;
-  padding-top: 1.5em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: auto;
+  column-gap: 0.25em;
+  row-gap: 0.25em;
 }
 
 .gallery-row {
@@ -21,8 +21,6 @@
 }
 
 .gallery-column img {
-  margin-top: 8px;
-  vertical-align: middle;
   width: 100%;
 }
 
