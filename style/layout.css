@@ -82,7 +82,7 @@ footer {
   padding-top: 2em;
 }
 
-.social-icons{
+.social-icons {
   display: flex;
   justify-content: space-between;
 }
@@ -90,6 +90,11 @@ footer {
 .icon {
   padding-left: 0.5em;
   padding-right: 0.5em;
+  width: 2em;
+}
+
+.icon img {
+  width: 100%;
 }
 
 .footer-text {
