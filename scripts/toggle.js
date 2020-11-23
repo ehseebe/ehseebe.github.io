@@ -2,8 +2,10 @@ $(document).ready(function() {
 
   $('.button-vagary').click(function() {
     if ($('.vagary').length) {
+      console.log('slideup')
       $('.vagary').slideUp();
     } else {
+      console.log('slidedown')
       $('.vagary').slideDown("slow");
     }
   
