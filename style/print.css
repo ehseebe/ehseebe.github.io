@@ -18,11 +18,12 @@ main {
 }
 
 .sidewalk-plants {
-  transition: transform .2s;
+  transition: transform 1s;
 }
 
 .sidewalk-plants :hover {
-  transform: scale(1.5);
+  transform: scale(1.1);
+  filter: drop-shadow(.25em .25em 0.5rem lightgrey);
 }
 
 
