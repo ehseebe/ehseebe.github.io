@@ -129,7 +129,7 @@ footer {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 725px) {
   .nav-buttons {
     flex-direction: column;
     align-items: flex-end;
