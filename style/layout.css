@@ -100,10 +100,10 @@ footer {
 
 .footer-text {
   font-size: x-small;
-  font-family: "Poppins", sans-serif;
   color: #BFBFBF;
   padding: 3em;
   padding-top: 1em;
+  text-align: center;
 }
 
 .fade-in {
