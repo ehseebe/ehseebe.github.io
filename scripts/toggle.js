@@ -1,23 +1,17 @@
-$(document).ready(function() {
+$(document).ready(function () {
+  $(".button-vagary").click(function () {
+    $(".vagary").toggle("slow");
+  });
 
-  $('.button-vagary').click(function() {
-      $('.vagary').toggle("slow", function() {
-        console.log('toggle')
-      });
-    });
-  
-$('.button-teacherest').click(function() {
-  console.log("clicked!")
-$('.teacherest').toggle("slow");
-});
+  $(".button-teacherest").click(function () {
+    $(".teacherest").toggle("slow");
+  });
 
-$('.button-scheduler').click(function() {
-  console.log("clicked!")
-$('.scheduler').slideDown("slow");
-});
+  $(".button-scheduler").click(function () {
+    $(".scheduler").toggle("slow");
+  });
 
-$('.button-tweeter').click(function() {
-  console.log("clicked!")
-$('.tweeter').slideDown("slow");
-});
+  $(".button-tweeter").click(function () {
+    $(".tweeter").toggle("slow");
+  });
 });
