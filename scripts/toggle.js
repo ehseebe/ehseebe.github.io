@@ -1,7 +1,7 @@
 $(document).ready(function() {
   console.log("hello!")
-  $('button').click(function() {
+  $('.button-vagary').click(function() {
     console.log("clicked!")
-  $('.project-details').slideDown("slow");
+  $('.project-details vagary').slideDown("slow");
 });
 });
