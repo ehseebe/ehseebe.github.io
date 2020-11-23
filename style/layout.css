@@ -9,6 +9,8 @@ html {
 body {
   display: flex;
   flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
   -webkit-animation: body 2s linear infinite alternate both;
   animation: body 2s linear alternate both;
 }

@@ -29,8 +29,6 @@ main {
   border-radius: 25px;
   padding: 1em;
   margin-top: 0.5em;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
   text-align: center;
   display: none;
 }
