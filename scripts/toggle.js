@@ -1,7 +1,6 @@
 $(document).ready(function() {
 
   $('.button-vagary').click(function() {
-    console.log('vagary clicked')
       $('.vagary').toggle("slow", function() {
         console.log('toggle')
       });
@@ -9,7 +8,7 @@ $(document).ready(function() {
   
 $('.button-teacherest').click(function() {
   console.log("clicked!")
-$('.teacherest').slideDown("slow");
+$('.teacherest').toggle("slow");
 });
 
 $('.button-scheduler').click(function() {
