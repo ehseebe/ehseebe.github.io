@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   $('.button-vagary').click(function() {
-    if ($('.button-vagary').length) {
+    if ($('.vagary').length) {
       $('.vagary').slideUp();
     } else {
       $('.vagary').slideDown("slow");
