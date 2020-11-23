@@ -23,6 +23,11 @@ main {
   border-radius: 25px;
 }
 
+button {
+  max-width: 5em;
+  margin: 1em;
+}
+
 .project-details {
   background-color: white;
   color: black;
