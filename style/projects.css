@@ -1,6 +1,7 @@
 main {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   height: auto;
   padding-top: 1.5em;
@@ -9,23 +10,23 @@ main {
 .project {
   display: flex;
   flex-direction: column;
-  padding: 2em;
+  padding: 1em;
   margin: 1.5em;
   background-color: whitesmoke;
   background-image: url(/ehseebe.github.io/assets/projects/concrete-wall.png);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 25px;
-  max-width: 900px;
+  max-width: 40em;
 }
 
 .project img {
   width: 100%;
   border-radius: 25px;
+  padding-bottom: 0.5em;
 }
 
 button {
-  max-width: 5em;
-  margin: 1em;
+  max-width: 10em;
 }
 
 .project-details {
