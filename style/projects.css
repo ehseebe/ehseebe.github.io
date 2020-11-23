@@ -1,10 +1,7 @@
 main {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   align-items: center;
-  height: auto;
-  padding-top: 1.5em;
 }
 
 .project {
