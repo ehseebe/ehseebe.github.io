@@ -1,16 +1,12 @@
 $(document).ready(function() {
 
   $('.button-vagary').click(function() {
-    if ($('.vagary').length) {
-      console.log('slideup')
-      $('.vagary').slideUp();
-    } else {
-      console.log('slidedown')
-      $('.vagary').slideDown("slow");
-    }
+    console.log('vagary clicked')
+      $('.vagary').toggle("slow", function() {
+        console.log('toggle')
+      });
+    });
   
-});
-
 $('.button-teacherest').click(function() {
   console.log("clicked!")
 $('.teacherest').slideDown("slow");
